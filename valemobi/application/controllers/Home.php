@@ -33,7 +33,6 @@ class Home extends CI_Controller
 			'tipo_negocio' => $this->input->post('tiponegocioProduto')
 			);
 
-
 		$this->inseredados_model->insereProdutos($dados);
 
 		$retorno  = $this->inseredados_model->retornaProdutos();
